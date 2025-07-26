@@ -1,0 +1,37 @@
+O# Terraform files
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# AWS Credentials
+*.pem
+*.key
+*.crt
+*.pub
+
+# Sensitive files
+*.tfvars
+*.tfvars.json
+.env
+*.log
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
